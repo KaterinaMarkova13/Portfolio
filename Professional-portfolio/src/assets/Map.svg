@@ -1,0 +1,49 @@
+<svg width="957" height="650" viewBox="0 0 957 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="957" height="650" fill="#E6E6E6"/>
+<g id="Map">
+<g id="M4">
+<path id="Vector 4" d="M100 106L140.203 156.18C147.31 165.05 151.182 176.077 151.182 187.442V210.946V415.642C151.182 434.14 161.394 451.126 177.731 459.801L238.002 491.808C245.224 495.643 253.276 497.649 261.453 497.649H394.721C410.105 497.649 424.633 504.731 434.11 516.851L531.182 641" stroke="#13B25A" stroke-width="15" stroke-linecap="round"/>
+<rect id="Rectangle 27" x="144" y="215" width="14" height="14" rx="7" fill="#FAF4F2"/>
+<g id="Group 5">
+<rect id="Rectangle 6" x="76" y="79" width="35" height="35" rx="17.5" fill="#13B25A"/>
+<text id="M4_2" fill="#FAF4F2" xml:space="preserve" style="white-space: pre" font-family="Helvetica" font-size="14" font-weight="bold" letter-spacing="0em"><tspan x="84" y="101.83">M4</tspan></text>
+</g>
+<rect id="Rectangle 20" x="245" y="490" width="14" height="14" rx="7" fill="#FAF4F2"/>
+<rect id="Rectangle 21" x="391" y="491" width="14" height="14" rx="7" fill="#FAF4F2"/>
+<rect id="Rectangle 26" x="524.5" y="634.5" width="15" height="15" rx="7.5" fill="#FAF4F2" stroke="#13B25A"/>
+</g>
+<g id="M3">
+<rect id="Rectangle 6_2" x="473" y="10" width="35" height="35" rx="17.5" fill="#F45841"/>
+<text id="M3_2" fill="#FAF4F2" xml:space="preserve" style="white-space: pre" font-family="Helvetica" font-size="14" font-weight="bold" letter-spacing="0em"><tspan x="481" y="32.8296">M3</tspan></text>
+<path id="Vector 2" d="M943.033 491.62C946.137 494.363 950.877 494.07 953.62 490.967C956.363 487.863 956.07 483.123 952.967 480.38L943.033 491.62ZM735.134 297.875L740.1 292.255L735.134 297.875ZM485 39L479.697 33.6967L400.341 113.052L405.645 118.355L410.948 123.659L490.303 44.3033L485 39ZM391 153.711H383.5V169.5H391H398.5V153.711H391ZM441 219.5V227H675.197V219.5V212H441V219.5ZM735.134 297.875L730.167 303.495L943.033 491.62L948 486L952.967 480.38L740.1 292.255L735.134 297.875ZM720 264.303H712.5C712.5 279.295 718.933 293.567 730.167 303.495L735.134 297.875L740.1 292.255C732.088 285.174 727.5 274.996 727.5 264.303H720ZM675.197 219.5V227C695.799 227 712.5 243.701 712.5 264.303H720H727.5C727.5 235.417 704.083 212 675.197 212V219.5ZM391 169.5H383.5C383.5 201.256 409.244 227 441 227V219.5V212C417.528 212 398.5 192.972 398.5 169.5H391ZM405.645 118.355L400.341 113.052C389.558 123.835 383.5 138.461 383.5 153.711H391H398.5C398.5 142.439 402.978 131.629 410.948 123.659L405.645 118.355Z" fill="#F45841"/>
+<rect id="Rectangle 14" x="500" y="210" width="14" height="14" rx="7" fill="#FAF4F2"/>
+<rect id="Rectangle 23" x="769" y="327" width="14" height="14" rx="7" fill="#FAF4F2"/>
+<rect id="Rectangle 30" x="941.5" y="479.5" width="15" height="15" rx="7.5" fill="#FAF4F2" stroke="#F45841"/>
+</g>
+<g id="M1">
+<g id="Group 4">
+<rect id="Rectangle 6_3" x="279" width="35" height="35" rx="17.5" fill="#47ABF0"/>
+<text id="M1_2" fill="#FAF4F2" xml:space="preserve" style="white-space: pre" font-family="Helvetica" font-size="14" font-weight="bold" letter-spacing="0em"><tspan x="287" y="22.8296">M1</tspan></text>
+</g>
+<path id="Vector 1" d="M896.5 569.5C896.5 573.642 899.858 577 904 577C908.142 577 911.5 573.642 911.5 569.5H896.5ZM889.355 331.355L894.659 326.052L889.355 331.355ZM806.645 248.645L811.948 243.341L806.645 248.645ZM297 30H289.5V184H297H304.5V30H297ZM347 234V241.5H771.289V234V226.5H347V234ZM806.645 248.645L801.341 253.948L884.052 336.659L889.355 331.355L894.659 326.052L811.948 243.341L806.645 248.645ZM904 366.711H896.5V569.5H904H911.5V366.711H904ZM889.355 331.355L884.052 336.659C892.022 344.629 896.5 355.439 896.5 366.711H904H911.5C911.5 351.461 905.442 336.835 894.659 326.052L889.355 331.355ZM771.289 234V241.5C782.561 241.5 793.371 245.978 801.341 253.948L806.645 248.645L811.948 243.341C801.165 232.558 786.539 226.5 771.289 226.5V234ZM297 184H289.5C289.5 215.756 315.244 241.5 347 241.5V234V226.5C323.528 226.5 304.5 207.472 304.5 184H297Z" fill="#47ABF0"/>
+<rect id="Rectangle 15" x="500" y="225" width="14" height="14" rx="7" fill="#FAF4F2"/>
+<rect id="Rectangle 29" x="745" y="227" width="14" height="14" rx="7" fill="#FAF4F2"/>
+<rect id="Rectangle 22" x="308" y="215" width="14" height="14" rx="7" fill="#FAF4F2"/>
+<rect id="Rectangle 24" x="896" y="348" width="14" height="14" rx="7" fill="#FAF4F2"/>
+<rect id="Rectangle 25" x="896.5" y="564.5" width="15" height="15" rx="7.5" fill="#FAF4F2" stroke="#47ABF0"/>
+</g>
+<g id="M2">
+<g id="Group 3">
+<rect id="Rectangle 6_4" x="695" y="118" width="35" height="35" rx="17.5" fill="#F98A07"/>
+<text id="M2_2" fill="#FAF4F2" xml:space="preserve" style="white-space: pre" font-family="Helvetica" font-size="14" font-weight="bold" letter-spacing="0em"><tspan x="703" y="140.83">M2</tspan></text>
+</g>
+<path id="Vector 3" d="M700 148L605.839 234.351C596.616 242.808 584.558 247.5 572.045 247.5H292.374C280.512 247.5 269.037 251.717 259.998 259.397L215.624 297.103C206.585 304.783 195.109 309 183.248 309H58.0001C30.3858 309 8 331.386 8 359V444.113C8 455.679 12.0098 466.887 19.3463 475.828L72 540" stroke="#FF9100" stroke-width="15" stroke-linecap="round"/>
+<rect id="Rectangle 16" x="500" y="240" width="14" height="14" rx="7" fill="#FAF4F2"/>
+<rect id="Rectangle 17" x="307" y="240" width="14" height="14" rx="7" fill="#FAF4F2"/>
+<rect id="Rectangle 18" x="2" y="343" width="14" height="14" rx="7" fill="#FAF4F2"/>
+<rect id="Rectangle 19" x="119" y="302" width="14" height="14" rx="7" fill="#FAF4F2"/>
+<rect id="Rectangle 28" x="1" y="442" width="14" height="14" rx="7" fill="#FAF4F2"/>
+<rect id="Rectangle 27_2" x="64.5" y="532.5" width="15" height="15" rx="7.5" fill="#FAF4F2" stroke="#FF9100"/>
+</g>
+</g>
+</svg>
