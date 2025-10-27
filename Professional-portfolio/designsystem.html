@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Katerina Markova — Portfolio</title>
+    <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+    <header class="proj-header noprogress">
+        <!-- LEFT: badge + title -->
+        <a class="proj-brand" href="index.html">
+            <svg width="55" height="55" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="35" height="35" rx="17.5" fill="#F98A07"/>
+                <path d="M10.9941 23H9.03223V12.9238H12.0947L13.9268 20.8467L15.7451 12.9238H18.7734V23H16.8115V16.1846C16.8115 15.9886 16.8138 15.7152 16.8184 15.3643C16.8229 15.0088 16.8252 14.7354 16.8252 14.5439L14.918 23H12.874L10.9805 14.5439C10.9805 14.7354 10.9827 15.0088 10.9873 15.3643C10.9919 15.7152 10.9941 15.9886 10.9941 16.1846V23ZM24.5293 15.1045C24.2969 14.8265 23.9642 14.6875 23.5312 14.6875C22.9388 14.6875 22.5355 14.9085 22.3213 15.3506C22.1982 15.6058 22.1253 16.0114 22.1025 16.5674H20.209C20.2409 15.7243 20.3936 15.043 20.667 14.5234C21.1865 13.5345 22.1094 13.04 23.4355 13.04C24.4837 13.04 25.3177 13.3317 25.9375 13.915C26.5573 14.4938 26.8672 15.2617 26.8672 16.2188C26.8672 16.9525 26.6484 17.6042 26.2109 18.1738C25.9238 18.5521 25.4521 18.9736 24.7959 19.4385L24.0166 19.9922C23.529 20.3385 23.194 20.5892 23.0117 20.7441C22.834 20.8991 22.6836 21.0791 22.5605 21.2842H26.8877V23H20.0996C20.1178 22.2891 20.2705 21.6396 20.5576 21.0518C20.8356 20.391 21.4919 19.6914 22.5264 18.9531C23.4242 18.3105 24.0052 17.8503 24.2695 17.5723C24.6751 17.1393 24.8779 16.6654 24.8779 16.1504C24.8779 15.7311 24.7617 15.3825 24.5293 15.1045Z" fill="#FAF4F2"/>
+                </svg>
+          <h1 class="proj-title">Design system</h1>
+        </a>
+    
+              <nav class="navbar">
+                
+                  <div class="container nav-container">
+                      <input class="checkbox" type="checkbox" name="" id="" />
+                      <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                      </div>  
+                
+                      <div class="menu-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                      
+                        <!-- Projects with dropdown -->
+                        <li class="has-submenu">
+                          <input type="checkbox" id="projects-toggle" class="submenu-toggle" />
+                          <label for="projects-toggle" class="submenu-label">
+                            <span class="label-text">Projects</span>
+                            <span class="plus" aria-hidden="true"></span>
+                          </label>
+                          <ul class="submenu">
+                            <li><a href="vicom.html" class="legend-item" data-line="M1">
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <rect width="35" height="35" rx="17.5" fill="#47ABF0"/>
+                                  <path d="M10.9941 23H9.03223V12.9238H12.0947L13.9268 20.8467L15.7451 12.9238H18.7734V23H16.8115V16.1846C16.8115 15.9886 16.8138 15.7152 16.8184 15.3643C16.8229 15.0088 16.8252 14.7354 16.8252 14.5439L14.918 23H12.874L10.9805 14.5439C10.9805 14.7354 10.9827 15.0088 10.9873 15.3643C10.9919 15.7152 10.9941 15.9886 10.9941 16.1846V23ZM24.96 23H22.9639V16.1641H20.6328V14.8379C21.248 14.8105 21.6787 14.7695 21.9248 14.7148C22.3167 14.6283 22.6357 14.4551 22.8818 14.1953C23.0505 14.0176 23.1781 13.7806 23.2646 13.4844C23.3148 13.3066 23.3398 13.1745 23.3398 13.0879H24.96V23Z" fill="#FAF4F2"/>
+                                  </svg>
+                                </svg>
+                                <span>ViCom</span>
+                              </a>
+                            </li>
+                            <li><a href="designsystem.html" class="legend-item" data-line="M2">
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <rect width="35" height="35" rx="17.5" fill="#F98A07"/>
+                                  <path d="M10.9941 23H9.03223V12.9238H12.0947L13.9268 20.8467L15.7451 12.9238H18.7734V23H16.8115V16.1846C16.8115 15.9886 16.8138 15.7152 16.8184 15.3643C16.8229 15.0088 16.8252 14.7354 16.8252 14.5439L14.918 23H12.874L10.9805 14.5439C10.9805 14.7354 10.9827 15.0088 10.9873 15.3643C10.9919 15.7152 10.9941 15.9886 10.9941 16.1846V23ZM24.5293 15.1045C24.2969 14.8265 23.9642 14.6875 23.5312 14.6875C22.9388 14.6875 22.5355 14.9085 22.3213 15.3506C22.1982 15.6058 22.1253 16.0114 22.1025 16.5674H20.209C20.2409 15.7243 20.3936 15.043 20.667 14.5234C21.1865 13.5345 22.1094 13.04 23.4355 13.04C24.4837 13.04 25.3177 13.3317 25.9375 13.915C26.5573 14.4938 26.8672 15.2617 26.8672 16.2188C26.8672 16.9525 26.6484 17.6042 26.2109 18.1738C25.9238 18.5521 25.4521 18.9736 24.7959 19.4385L24.0166 19.9922C23.529 20.3385 23.194 20.5892 23.0117 20.7441C22.834 20.8991 22.6836 21.0791 22.5605 21.2842H26.8877V23H20.0996C20.1178 22.2891 20.2705 21.6396 20.5576 21.0518C20.8356 20.391 21.4919 19.6914 22.5264 18.9531C23.4242 18.3105 24.0052 17.8503 24.2695 17.5723C24.6751 17.1393 24.8779 16.6654 24.8779 16.1504C24.8779 15.7311 24.7617 15.3825 24.5293 15.1045Z" fill="#FAF4F2"/>
+                                  </svg>
+                                <span>Design system</span>
+                              </a>
+                            </li>
+                            <li>
+                                <a href="pwmi.html" class="legend-item" data-line="M3">
+                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <rect width="35" height="35" rx="17.5" fill="#F45841"/>
+                                      <path d="M10.9941 23H9.03223V12.9238H12.0947L13.9268 20.8467L15.7451 12.9238H18.7734V23H16.8115V16.1846C16.8115 15.9886 16.8138 15.7152 16.8184 15.3643C16.8229 15.0088 16.8252 14.7354 16.8252 14.5439L14.918 23H12.874L10.9805 14.5439C10.9805 14.7354 10.9827 15.0088 10.9873 15.3643C10.9919 15.7152 10.9941 15.9886 10.9941 16.1846V23ZM22.3418 15.0635C22.123 15.3551 22.0182 15.7448 22.0273 16.2324H20.209C20.2272 15.7402 20.3115 15.2731 20.4619 14.8311C20.6214 14.4437 20.8721 14.0859 21.2139 13.7578C21.4691 13.5254 21.7721 13.3477 22.123 13.2246C22.474 13.1016 22.9046 13.04 23.415 13.04C24.363 13.04 25.1263 13.2861 25.7051 13.7783C26.2884 14.266 26.5801 14.9222 26.5801 15.7471C26.5801 16.3304 26.4069 16.8226 26.0605 17.2236C25.8418 17.4743 25.6139 17.6452 25.377 17.7363C25.5547 17.7363 25.8099 17.889 26.1426 18.1943C26.6393 18.6546 26.8877 19.2835 26.8877 20.0811C26.8877 20.9196 26.596 21.6579 26.0127 22.2959C25.4339 22.9294 24.5749 23.2461 23.4355 23.2461C22.0319 23.2461 21.0566 22.7881 20.5098 21.8721C20.2227 21.3844 20.0632 20.7464 20.0312 19.958H21.9453C21.9453 20.3545 22.0091 20.6826 22.1367 20.9424C22.3737 21.4209 22.8044 21.6602 23.4287 21.6602C23.8115 21.6602 24.1442 21.5303 24.4268 21.2705C24.7139 21.0062 24.8574 20.6279 24.8574 20.1357C24.8574 19.484 24.5931 19.0488 24.0645 18.8301C23.7637 18.707 23.2897 18.6455 22.6426 18.6455V17.251C23.276 17.2419 23.7181 17.1803 23.9688 17.0664C24.4017 16.875 24.6182 16.4876 24.6182 15.9043C24.6182 15.526 24.5065 15.2184 24.2832 14.9814C24.0645 14.7445 23.7546 14.626 23.3535 14.626C22.8932 14.626 22.556 14.7718 22.3418 15.0635Z" fill="#FAF4F2"/>
+                                      </svg>                    
+                                    <span>PWMI platform</span>
+                                  </a>
+                            </li>
+                            <li>
+                                <a href="quiet.html" class="legend-item" data-line="M4">
+                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <rect width="35" height="35" rx="17.5" fill="#13B25A"/>
+                                      <path d="M10.9941 23H9.03223V12.9238H12.0947L13.9268 20.8467L15.7451 12.9238H18.7734V23H16.8115V16.1846C16.8115 15.9886 16.8138 15.7152 16.8184 15.3643C16.8229 15.0088 16.8252 14.7354 16.8252 14.5439L14.918 23H12.874L10.9805 14.5439C10.9805 14.7354 10.9827 15.0088 10.9873 15.3643C10.9919 15.7152 10.9941 15.9886 10.9941 16.1846V23ZM26.9834 19.3428V20.8672H25.8623V23H23.9551V20.8672H20.0312V19.165L23.6748 13.1494H25.8623V19.3428H26.9834ZM21.4736 19.3428H23.9551V15.0635L21.4736 19.3428Z" fill="#FAF4F2"/>
+                                      </svg>                    
+                                    <span>Quiet</span>
+                                  </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </div>
+            
+              </nav>
+      </header>
+      <main class="projectsbody">
+        <div class="container">
+            
+        
+            <div class="hero">
+                <section>
+                    <p class="brand">Viggo</p>
+                    <h1>Designing for Efficiency <br> and Consistency </h1>
+                    <p class="lede context-body" >
+                        To ensure consistency and efficiency across ViCOM, I created a comprehensive design system that defines the app’s visual language and interaction patterns. The style follows Viggo’s company colors, ensuring that ViCOM aligns with the visual identity of other internal applications. The system includes reusable components, typography, and color guidelines, making future updates easier while supporting a cohesive and scalable design-to-development process.
+                    </p>
+            
+                    <div class="meta">
+                      <div class="card">
+                        <h3>My Role</h3>
+                        <ul>
+                          <li>Design system designer</li>
+                        </ul>
+                      </div>
+                      <div class="card">
+                        <h3>Tools</h3>
+                        <ul>
+                          <li>Figma</li>
+                        </ul>
+                      </div>
+                      <div class="card">
+                        <h3>Timeline</h3>
+                        <p>15th Mar - 29th Mar 2025</p>
+                      </div>
+                    </div>
+                  </section>
+            
+                  <section class="mock-area" aria-label="Visuals">
+                   
+                    <img class="system" src="src/assets/typography.png" alt="">
+                  </section>
+                  
+              
+              
+            </div>
+            <section>
+                <iframe class="figma" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/kIdQrtQghnBVCDy2LAaR5O/Design-system?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+                    
+            </section>
+            <div class="next">
+                <a href="pwmi.html" class="next-project-btn">
+                    <span>Next Project</span>
+                    <svg class="arrow-icon" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="35" height="35" rx="17.5" fill="#111010"/>
+                      <path d="M19.0912 25L18.0848 24.0038L23.1984 18.8077L9 18.8077L9 17.1923L23.1984 17.1923L18.0848 11.9962L19.0912 11L26 18L19.0912 25Z" fill="#FAF4F2"/>
+                    </svg>
+                  </a>
+            </div>
+        </main>
+</body>
+</html>

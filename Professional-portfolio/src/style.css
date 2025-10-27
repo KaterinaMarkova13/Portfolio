@@ -15,7 +15,7 @@ html, body { height: 95vh;
 
 body {
   margin: 0;
-  background:#f6f6f6; color:#111;
+  background:#f6f6f6; color:var(--black);
   font-family: Inter, system-ui, Arial, sans-serif;
 }
 .homebody{
@@ -223,6 +223,7 @@ body {
   z-index: 2000;
   padding: 0 10vw 2vh;
   align-items: flex-end;
+  padding-top: 2vh;
 }
 .proj-header a{
   color: #111;
@@ -274,7 +275,7 @@ body {
 /* legend */
 .legend-item{
   display:flex; align-items:center; gap:10px;
-  text-decoration:none; color:#111; font-weight:500;
+  text-decoration:none; color:#111; 
   font-size:clamp(.95rem,1.1vw,1rem);
 }
 .dot{
@@ -441,9 +442,6 @@ body {
   opacity: 0;
   transform: translateY(-6px);
   transition: max-height .3s ease, opacity .25s ease, transform .25s ease;
-  padding-left: 0;
-
-  margin-left: calc((-3.5vw)); 
   align-items: flex-start;   /* ✅ align items to the start instead of center */
   text-align: left;          /* ✅ left-align submenu text */
   width: auto;    
@@ -612,9 +610,8 @@ body {
   grid-template-columns: 1.3fr 1fr;
   gap: clamp(24px, 5vw, 80px);
   align-items: center;
-  margin-bottom: clamp(48px, 10vw, 120px);
 }
-.context-grid.solution { grid-template-columns: 1fr 1fr; }
+.context-grid.solution { grid-template-columns: 1fr 1fr; margin-top: 10vh; }
 
 .eyebrow {
   font-size: 0.9rem;
@@ -632,7 +629,6 @@ body {
   font-size: 1.05rem;
   line-height: 1.6;
   color: var(--black);
-  max-width: 56ch;
   margin: 0;
 }
 #left-text{
@@ -681,7 +677,14 @@ body {
   display: block; width: 18vw; height: auto;
 }
 .compare .phone-before img { width: 13vw; }
-
+.phone-now{
+  max-width: 30vw;
+}
+.context-flex{
+  display: flex;
+  align-items: center;
+  gap: 7vw;
+}
 /* responsive */
 @media (max-width: 900px) {
   .compare .context-grid { grid-template-columns: 1fr; }
@@ -746,7 +749,7 @@ align-items: center;
 
 .survey-image  {
   max-width: 50vw;
-  margin: 10vh auto;
+  margin: 5vh 0 10vh;
   display: block;
 }
 .highlight-points{
@@ -756,8 +759,7 @@ align-items: center;
   margin-top: 2vh;
 }
 .user{
-  max-width: 18vw;
-  margin-top: 2vh;
+  margin: 2vh 0 10vh;
 }
 .pill-list {
   background: #f7fcfe;
@@ -822,7 +824,7 @@ align-items: center;
 .hmw {
   text-align: center;
   padding: 2rem 0;
-  margin: 15vh 0;
+  margin: 7vh 0;
 }
 
 .hmw h2 {
@@ -837,4 +839,252 @@ align-items: center;
 .user{
   display: flex;
   gap: 2vw;
+}
+/* about me */
+
+#nav-about{
+  margin: 5.6vh auto;
+}
+.about-main{
+  max-width: 65vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.about-main h1{
+  font-size: 6rem ;
+  font-weight: 700;
+}
+.intro{
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--black);
+  max-width: 60vw;
+}
+.about-me{
+  display: flex;
+  align-items: start;
+  gap: 5vw;
+}
+.more{
+  padding: 5vh 0;
+}
+/* Container */
+/* Accordion Section */
+.accordion {
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Hide checkbox but keep functional */
+.accordion-toggle {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Header */
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  border-bottom: 0.1vh solid #d9d9d9;
+}
+
+.accordion-header h2 {
+  font-size: 2.5vw;
+  font-weight: 600;
+  color: #111;
+  margin: 0;
+}
+
+/* Plus icon */
+.accordion-plus {
+  position: relative;
+  width: 1.5vw;
+  height: 1.5vw;
+  display: inline-block;
+  transition: transform 0.25s ease;
+}
+
+/* Horizontal and vertical bars */
+.accordion-plus::before,
+.accordion-plus::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  height: 0.2vh;
+  background: var(--black);
+  transform: translate(-50%, -50%);
+  transition: transform 0.25s ease, opacity 0.25s ease;
+  border-radius: 1px;
+}
+
+.accordion-plus::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+/* Content */
+.accordion-content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, opacity 0.25s ease;
+}
+
+.accordion-content p {
+  line-height: 1.7;
+  color: var(--black);
+  margin: 3vh 0 5vh;
+}
+.love{
+  width: 60vw;
+  margin: 5vh 0;
+}
+/* When expanded */
+.accordion-toggle:checked ~ .accordion-header .accordion-plus {
+  transform: scale(1.15);
+}
+
+.accordion-toggle:checked ~ .accordion-header .accordion-plus::after {
+  opacity: 0;
+  transform: translate(-50%, -50%) rotate(90deg) scaleX(0);
+}
+
+.accordion-toggle:checked ~ .accordion-content {
+  max-height: 80vh;
+  opacity: 1;
+}
+
+/* Responsive text adjustments */
+@media (max-width: 768px) {
+  .accordion-header {
+    height: 8vh;
+    padding: 0 6vw;
+  }
+
+  .accordion-header h2 {
+    font-size: 5vw;
+  }
+
+  .accordion-plus {
+    width: 3.5vw;
+    height: 3.5vw;
+  }
+
+  .accordion-content p {
+    font-size: 3.5vw;
+  }
+}
+
+
+.profile{
+  width: 20vw;
+}
+.visual{
+  max-height: 70vh;
+  width: auto;
+}
+#projectlink{
+  color: var(--orange);
+  text-decoration: none;
+  font-weight: 600;
+}
+#small-img{
+  max-width: 30vw;
+  padding: 5vh 0 12vh;
+}
+.reflection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10vh;
+}
+.reflection img{
+  max-width: 60vw;
+}
+.reflection h2{
+  font-size: 3rem;
+  padding: 0 0 5vh 0 ;
+}
+.next{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10vh;
+}
+.next-project-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2vw;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #111010;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+/* SVG hover animation */
+.next-project-btn svg {
+  transition: transform 0.3s ease;
+}
+
+.next-project-btn:hover svg {
+  transform: translateX(6px);
+}
+.noprogress{
+  padding-top: 6vh;
+  padding-bottom: 2vh;
+}
+.system{
+  max-width: 30vw;
+}
+.figma{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10vh 0;
+}
+.pwmiimg{
+  width: 40vw;
+}
+#academy{
+  margin-bottom: 5vh;
+}
+.final{
+  margin-bottom: 10vh;
+}
+.max{
+  align-items: center;
+  padding: 5vh 0;
+  width: 80vw;
+}
+.phone-quiet{
+  width: 40vw;
+}
+.image-flex{
+  display: flex;
+  flex-direction: row;
+  padding: 5vh 0;
+}
+.image-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.last{
+  padding-bottom: 10vh;
 }
